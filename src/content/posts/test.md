@@ -2,7 +2,7 @@
 title: 测试用
 published: 2026-06-21
 description: 测试用
-image: ./test.jpg
+image: ./images/test.avif
 tags: [前端, 开发]
 category: 前端开发
 draft: false
@@ -23,7 +23,9 @@ draft: false
 是'半角'还是‘全角’？
 好吧原来是`这个`
 这是用作链接的吗？[网易云音乐](https://www.music.163.com)
-![这里点开也许是头像？](./test.jpg)
+
+![这里点开也许是头像？](./images/test.avif)
+
 然后下面是分割线
 
 ---
