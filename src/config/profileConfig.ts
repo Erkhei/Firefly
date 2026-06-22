@@ -9,10 +9,10 @@ export const profileConfig: ProfileConfig = {
 	avatar: "assets/images/ErZ.jpg",
 
 	// 名字
-	name: "Erkhei",
+	name: "Eyris",
 
 	// 个人签名
-	bio: "Hello, I'm Erkhei.",
+	bio: "Hello, I'm Eyris.",
 
 	// 链接配置
 	// 已经预装的图标集：fa7-brands，fa7-regular，fa7-solid，material-symbols，simple-icons
