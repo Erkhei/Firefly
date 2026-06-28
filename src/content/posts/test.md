@@ -3,7 +3,9 @@ title: 测试用
 published: 2026-06-21
 description: 测试用
 image: ./images/test.avif
-tags: [前端, 开发]
+tags:
+  - 前端
+  - 开发
 category: 前端开发
 draft: false
 ---
