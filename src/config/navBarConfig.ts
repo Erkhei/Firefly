@@ -33,6 +33,17 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 		],
 	});
 
+	// 笔记及其子菜单
+	links.push({
+		name: "笔记"
+		url: "#",
+		icon: "material-symbols:note",
+		children: [
+			// 笔记
+			LinkPresets.Notes,
+		]
+	})
+
 	// 友链
 	links.push(LinkPresets.Friends);
 
@@ -123,6 +134,11 @@ export const LinkPresets: Record<string, NavBarLink> = {
 		name: "标签",
 		url: "/tags/",
 		icon: "material-symbols:tag-rounded",
+	},
+	Notes:{
+		name:"笔记",
+		url: "/notes/",
+		icon: "material-symbols:note",
 	},
 	Friends: {
 		name: "友链",
