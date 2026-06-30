@@ -35,14 +35,14 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 
 	// 笔记及其子菜单
 	links.push({
-		name: "笔记"
+		name: "笔记",
 		url: "#",
 		icon: "material-symbols:note",
 		children: [
 			// 笔记
 			LinkPresets.Notes,
 		]
-	})
+	});
 
 	// 友链
 	links.push(LinkPresets.Friends);
